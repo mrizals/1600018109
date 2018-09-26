@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/countup"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@color/colorHijau"
+            android:onClick="up"
+            android:text="UP" />
+
+        <TextView
+            android:id="@+id/huruf"
+            android:layout_width="match_parent"
+            android:layout_height="471dp"
+            android:background="@color/colorTosca"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="200sp" />
+
+        <Button
+            android:id="@+id/countdwn"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@color/colorHijau"
+            android:onClick="down"
+            android:text="DOWN" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
